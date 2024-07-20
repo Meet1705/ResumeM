@@ -1,0 +1,285 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu&display=swap');
+
+*{
+  /* font-family:Wittgenstein; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2ecec;
+    scroll-behavior: smooth;
+  } */
+
+  /* // about page // */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Wittgenstein;
+    background-color: #084c41;
+    /* overflow: hidden; */
+    color: white;
+    padding: 9px 20px;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    /* z-index: 999; */
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .img{
+    padding-right: 18px;
+  }
+  .logo img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right:20px;
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.8s ease;
+    margin-bottom: 3px;
+
+  }
+  
+  .menu ul li a:hover{
+    color: black; /* Change to your desired hover color */
+    border: 2px solid white;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: white;
+    transition: color 0.3s ease;
+
+  }
+  
+
+  .name{
+    font-family:Bodoni Moda SC;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .name a{
+    text-decoration: none;
+    color: white;
+  }
+  .n{
+    font-family:Wittgenstein;
+    margin: 0px;
+    font-size: 2rem;
+  }
+
+  #about label{
+    color: #a8a0a0;
+    font-family:Wittgenstein;
+  }
+  .a{
+    margin: 13px;
+    font-family:poppins;
+  }
+  .con{
+    /* margin-top: 10px; */
+    font-family:Wittgenstein;
+  }
+  .info{
+    /* width: 100%; */
+    font-family:Wittgenstein;
+    padding: 0px 20px;
+    background-color: white;
+  }
+
+  .n{
+    font-family: poppins;
+  }
+
+  .mail a{
+    text-decoration: none;
+    color: black;
+    font-family:poppins;
+  }
+
+  .content{
+    display: flex;
+    font-family:Wittgenstein;
+    align-items:center ;
+    justify-content: space-around;
+  }
+
+  .image{
+    background-color: white;
+  }
+  .image img{
+    height: 350px;
+    width: 350px;
+    margin-right: 67px;
+    padding-top: 55px;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19); */
+  }
+  #about {
+    /* margin-bottom: 20px; */
+    font-family:Wittgenstein;
+  }
+
+
+  /* // project page  // */
+  #blog-services {
+    margin: 34px;
+    display: flex;
+}
+
+.box {
+    /* border: 2px solid rgb(22, 22, 22); */
+    padding: 34px;
+    margin: 2px 32px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    /* background-color: rgb(237, 235, 235); */
+}
+
+
+
+.box img {
+    cursor: pointer;
+    height: 164px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+   
+}
+
+.center {
+    align-items: center;
+    /* color: #7d2ae8; */
+    font-family:poppins;
+}
+
+#h-center {
+    display: flex;
+    font-family:Wittgenstein;
+    justify-content: center;
+    padding: 15px 10px;
+    font-size: 1.7rem;
+}
+
+  .footer{
+    color: white;
+    background-color:#084c41;
+    margin-top: 16px;
+    text-align: center;
+    padding: 2.01rem 16px;
+  }
+
+  .icon:hover{
+    color: #a8a0a0;
+    cursor: pointer;
+  }
+
+  /* // education page // */
+
+  .edu{
+    margin-top: 5px;
+  }
+
+  .e1{
+    font-size: 1.3rem;
+  }
+
+  .edu h2{
+    background-color: #084c41;
+    color: white;
+    padding-left: 11px;
+    text-align: center;
+  }
+
+  .edu p{
+    font-family: poppins;
+    color: black;
+    padding-left: 20px;
+  }
+
+  /* // Skills page // */
+
+  .sub-title{
+    margin-top: 7px;
+    background-color: #084c41;
+    text-align: center;
+    color: white;
+    font-family: Wittgenstein;
+  }
+
+  .container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Wittegenstein;
+  }
+
+  .Technical-bars{
+    font-size: 1.5rem;
+  }
+
+  .info span{
+    font-family: poppins;
+  }
+
+  .bars p{
+    font-size: 1.2rem;
+    font-family: poppins;
+    padding-left: 41px;
+  }
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      margin-top: 10px;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+    }
+  
+    .menu ul li {
+      margin: 5px 0;
+    }
+  }
+  
